@@ -25,22 +25,22 @@
 
     <ul id="sidebar" class="fixed top-0 -right-full flex flex-col transition-all duration-1000 gap-9 z-50 p-4 bg-blue-600 w-60 h-full text-white  font-medium">
       <li id="closeBtn"><a href="#"><i class="fas fa-times"></i></a></li>
-      <li><a href="./index.html">Home</a></li>
-      <li><a href="./about.html">About</a></li>
-      <li><a href="/skills.html">Skills</a></li>
-      <li><a href="./projects.html">Projects</a></li>
-      <li><a href="./contact.html">Contact</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#project">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
 
        <!--menu-->
    <h1 class="font-bold text-2xl text-white">Udeh <span class="text-red-300">Chinedu</span></h1>
 
-    <ul class="hidden md:flex gap-9 font-medium text-white">
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="./about.html">About</a></li>
-      <li><a href="./skills.html">Skills</a></li>
-      <li><a href="./projects.html">Projects</a></li>
-      <li><a href="./contact.html">Contact</a></li>
+    <ul class="hidden md:flex gap-9 font-medium text-white ">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#project">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
 
     <ul class="md:hidden">
@@ -50,20 +50,168 @@
   </nav>
 </header>
 
-
 <!-- HERO -->
-<section class="flex flex-col-reverse  justify-around items-center pt-25 pb-60  w-[93%] mx-auto md:flex-row md:pb-150 ">
+<section id="home">
+  <div class="flex flex-col-reverse justify-around items-center  mx-auto md:flex-row md:pb-30">
+
   <div>
   <h1 class="text-4xl font-medium text-black">Udeh Chinedu Obinna</h1>
   <p class="my-5 text-2xl text-blue-700">Full-Stack Web Developer</p>
-  
   <a class="bg-green-700 rounded-2xl py-3 px-10 text-white" href="./images/cv-files/chinedu_cv.pdf" download="Udeh-Chinedu-Obinna-CV">Download CV</a>
   </div>
   
-  <div>
-  <img src="./images/edu.jpg" class="rounded-full transition-all duration-150 h-92 hover:scale-[1.02]" alt="Profile Image">
-  </div> 
+  <div class="pt-25">
+    <img class="rounded-full transition-all duration-150 hover:scale-[1.02] " src="./images/edu.jpg"  alt="Profile Image"> 
+  </div>
+  </div>
+
 </section>
+
+
+<!--ABOUT-->
+
+<section id="about">
+  <h2 class="text-2xl text-center font-bold pt-20 pb-5">About Me</h2>
+  
+  <div class="grid grid-cols-1 w-[80%] mx-auto gap-5 md:grid-cols-2">
+<div>
+  <img class="rounded-md" src="./images/edu 1.jpg" alt="">
+</div>
+
+<div>
+  <p class=" text-justify text-xl"> I am passionate  about web development and creating modern websites.
+   I have a strong interest in learning new technologies and improving my coding skills. I am dedicated to building responsive and user-friendly websites that provide great user experiences. I enjoy working on projects that challenge me and allow me to grow as a developer. My goal is to become a full-stack developer and contribute to the tech community by creating innovative solutions.     
+  </p>
+</div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2 class="text-center pt-20 pb-8 text-2xl font-bold">My Skills</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 w-[90%] mx-auto gap-15 p-7">
+
+    <div class="text-2xl bg-green-700 flex items-center p-7 justify-center text-white rounded-md hover:bg-red-500 hover:scale-95 transition-all duration-500">
+      <a href="#"><i class="fa-brands fa-html5 "></i>HTML</a>
+    </div>
+
+    <div class="text-2xl bg-green-700 flex items-center p-7 justify-center text-white rounded-md hover:bg-red-500 hover:scale-95 transition-all duration-500">
+      <a href="#"><i class="fa-brands fa-css3-alt "></i>CSS</a>
+    </div>
+
+    <div class="text-2xl bg-green-700 flex items-center p-7 justify-center text-white rounded-md hover:bg-red-500 hover:scale-95 transition-all duration-500">
+        <a href="#"><i class="fa-brands fa-github "></i>GITHUB</a>
+    </div>
+
+    <div class="text-2xl bg-green-700 flex items-center p-7 justify-center  text-white rounded-md hover:bg-red-500 hover:scale-95 transition-all duration-500">
+        <a href="#"><i class="fa-brands fa-git-alt"></i>GIT</a>
+    </div>
+
+    <div class="text-2xl bg-green-700 flex items-center p-7 justify-center text-white rounded-md hover:bg-red-500 hover:scale-95 transition-all duration-500">
+        <a href="#"><i class="fa-brands fa-react"></i>REACT</a>
+    </div>
+
+    <div class="text-2xl bg-green-700 flex items-center p-7 justify-center text-white rounded-md hover:bg-red-500 hover:scale-95 transition-all duration-500">
+        <a href="#"><i class="fa-brands fa-node-js "></i>NODEJS</a>
+    </div>
+    <div class="text-2xl bg-green-700 flex items-center p-7 justify-center text-white rounded-md hover:bg-red-500 hover:scale-95 transition-all duration-500">
+        <a href="#"><i class="fa-brands fa-tailwind-css"></i></i>Tailwind</a>
+    </div>
+    </div>
+
+</section>
+
+<!--Project-->
+
+<section id="project">
+  <h2 class="text-center text-2xl pt-20 pb-8 font-bold">My Projects</h2>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  w-[90%] mx-auto gap-10">
+
+    <div class="project-card">
+      <a href="https://edu4life.github.io/amazon-project-version-1/" target="_blank">
+      <img src="./images/projects-images/amazon-pic.PNG" title="Visit udeh chinedu amazon project" alt="Project"></a>
+      <h3 class="text-xl font-bold">Amazon Project Website</h3>
+      <p>online shopping platform.</p>
+    </div>
+
+    <div>
+      <a href="https://edu4life.github.io/primary-school-website-version-1/" target="_blank">
+      <img src="./images/projects-images/bright-future-pic.PNG" title="Visit udeh chinedu primary school project" alt="Project"></a>
+      <h3 class="text-xl font-bold">Bright Future Primary School Website</h3>
+      <p>mordern school for children to learn skills.</p>
+    </div>
+ 
+    <div class="">
+      <a href="https://edu4life.github.io/youtube-project-version-1/" target="_blank">
+      <img src="./images/projects-images/youtube pic.PNG" title="Visit udeh chinedu youtube project" alt="Project"></a>
+      <h3 class="text-xl font-bold">Online Video Youtube</h3>
+      <p>watching and downloading your favourite video.</p>
+    </div>
+
+    <div class="">
+      <a href="https://edu4life.github.io/my_portifolio/" target="_blank">
+      <img src="./images/projects-images/personal-portifolio-project.PNG" title="Visit udeh chinedu portifolio website"></a>
+      <h3 class="text-xl font-bold">My Personal Portifolio</h3>
+      <p>a website that contain my skills and personal details.</p>
+    </div>
+
+    <div class="">
+      <a href="https://edu4life.github.io/leben-travel-agency-version-1/" target="_blank">
+      <img src="./images/projects-images/lebel-pic.PNG" title="Visit udeh chinedu portifolio website"></a>
+      <h3 class="text-xl font-bold">Lebel Travels Agency</h3>
+      <p>a travel agency website for booking trips and tours.</p>
+    </div>
+
+    <div class="">
+      <a href="https://edu4life.github.io/tailwind-nexus-project-version-1/" target="_blank">
+      <img src="./images/projects-images/nexus-pics.PNG" title="Visit udeh chinedu portifolio website"></a>
+      <h3 class="text-xl font-bold">Nexus project</h3>
+      <p>nexus online website.</p>
+    </div>
+  </div>
+
+</section>
+
+<!--Contact-->
+
+<section class="pb-30" id="contact" >
+  <h3 class="text-center pt-10 text-2xl">Contact Us</h3>
+
+  <p class="text-center pb-5">Ready to start project? Let's discuss how we can help you achieve your goals</p>
+
+
+  <form class="grid grid-cols-1  md:grid-cols-2 w-[80%] mx-auto bg-[#19212e] border border-cyan-100/5 rounded-md p-5 gap-5">
+
+<div class="flex flex-col gap-3">
+   <div class="text-white"><a href="https://www.gmail.com"><i class="fa-regular fa-envelope text-blue-400 mr-2"></i>udehchinedu081360@gmail.com</a>
+  </div>
+
+  <div class="text-white"><a href=""><i class="fas fa-phone-alt text-blue-400 mr-2"></i>+234 8136022462</a>
+  </div>
+
+  <div class="text-white"><a href="https://www.gmail.com"><i class="fa-solid fa-location-dot text-blue-400 mr-2"></i>Turing Tech & Enugu Sme</a>
+  </div>
+</div>
+
+<div class="flex flex-col gap-3">
+
+  <input class="text-white/90 bg-[#717375]/60 py-1 pl-1 rounded-md
+   outline-0"  type="text" name="" id="" placeholder="Your Name">
+   <input class="text-white/90 bg-[#717375]/60 py-1 pl-1  rounded-md
+   outline-0" type="email" name="" id="" placeholder="Your Email">
+
+  <textarea class="text-white/90 rounded-md bg-[#717375]/60 py-1 pl-1 
+   outline-0" name="" id="" placeholder="Your Message"  rows="4"></textarea>
+
+  <button class="bg-blue-500 text-white py-1 rounded-md font-medium">Send Message</button>
+  </div>
+
+  </form>
+</section>
+
+
 
 <!-- FOOTER -->
  <footer class="bg-gray-900 text-white text-center py-4">

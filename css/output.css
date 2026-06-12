@@ -316,9 +316,6 @@
   .p-1 {
     padding: calc(var(--spacing) * 1);
   }
-  .p-2 {
-    padding: calc(var(--spacing) * 2);
-  }
   .p-4 {
     padding: calc(var(--spacing) * 4);
   }
@@ -328,17 +325,8 @@
   .p-7 {
     padding: calc(var(--spacing) * 7);
   }
-  .p-10 {
-    padding: calc(var(--spacing) * 10);
-  }
-  .p-20 {
-    padding: calc(var(--spacing) * 20);
-  }
   .px-1 {
     padding-inline: calc(var(--spacing) * 1);
-  }
-  .px-2 {
-    padding-inline: calc(var(--spacing) * 2);
   }
   .px-5 {
     padding-inline: calc(var(--spacing) * 5);
@@ -375,12 +363,6 @@
   }
   .pb-30 {
     padding-bottom: calc(var(--spacing) * 30);
-  }
-  .pb-57 {
-    padding-bottom: calc(var(--spacing) * 57);
-  }
-  .pb-58 {
-    padding-bottom: calc(var(--spacing) * 58);
   }
   .pl-1 {
     padding-left: calc(var(--spacing) * 1);
@@ -503,6 +485,11 @@
   .md\:flex-row {
     @media (width >= 48rem) {
       flex-direction: row;
+    }
+  }
+  .md\:pt-30 {
+    @media (width >= 48rem) {
+      padding-top: calc(var(--spacing) * 30);
     }
   }
   .md\:pb-30 {

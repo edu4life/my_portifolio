@@ -1,0 +1,5 @@
+Hi Chartgpt, i am new software developer and i want you to help me build a landing page of a simple personal portifolio website.
+
+the landing page should have the following section: a menu bar, logo all on the same level.
+a hero section section that is about 50% of the lenght of the landing page and 100% if its width and partition it into two sections at right hand side let it have an image, and at left hand side let it have my full name written as udeh chinedu obinna, full-stack web developer and download cv.
+Build me this using tailwind css let IDE be visual studio code create a logo for me using my full name and place it at the top lefthand side. let the menu be sticky and let it have the following items Home, About, Skills, Projects, Contacts.
